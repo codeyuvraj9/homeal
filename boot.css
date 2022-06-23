@@ -1,0 +1,150 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: "Montserrat-Black", sans-serif;
+}
+h2{
+    font-size: 2rem;
+    line-height: 1.5;
+    font-family: "Montserrat-Bold",sans-serif;
+}
+h3{
+    font-family: "Montserrat-Black", sans-serif;
+    
+}
+p{
+    color: gray;
+}
+#title{
+    background-color: #B3541E;
+    color: #fff;
+}
+
+.lunch-box{
+    transform: rotate(5deg);
+    height: 120%;
+    width: auto;
+    
+    position: absolute;
+    bottom: 7px;
+    
+}
+
+.container-fluid{
+    padding: 3% 10% 5%;
+}
+
+.navbar{
+    padding-bottom: 5rem;
+}
+
+.navbar-brand{
+    
+    font-family: "Ubuntu";
+    font-size: 3.5rem;
+    
+}
+
+.nav-item{
+    font-family: "Montserrat-Light",sans-serif;
+    padding-left: 2rem;
+    font-size: 1.2rem;
+}
+
+.butto{
+    margin: 30% 2% 5% 0;
+}
+
+#features{
+    padding: 4% 10%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.speciality{
+    text-align: center;
+    padding: 5%;
+}
+.f-icon{
+    color: #96694e;
+    margin-bottom: 2rem;
+}
+.f-icon:hover{
+    color: #B3541E;
+}
+
+/***************** Review Section *****************************/
+#Reviews{
+    
+    text-align: center;
+    background-color: #96694e;
+    color: white;
+}
+
+.reviewer{
+    width: 20rem;
+    border-radius: 100%;
+}
+.carousel-item{
+    padding: 5% 15%;
+}
+/***************** Pricing Section *****************************/
+#Pricing-cards{
+    text-align: center;
+    padding: 3% 10%;
+}
+.pricing{
+    padding: 1rem 2rem;
+} 
+
+
+/************* footer section *******************/
+#foot{
+    color: white;
+    text-align: center;
+    background-color: #B3541E;
+    padding: 2% 10% 2%;
+
+}
+.footer-button{
+    margin: 10% 1% 2%;
+}
+#copyRight{
+    padding: 3%;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+.social{
+    padding: 1%;
+}
+.social:hover{
+    color: blue;
+}
+/* ********************Media Query *******************************/
+/* 1069px tak aur uske neeche tak ke resolution k liye */
+@media (max-width: 1069px) {  
+    #title{
+        text-align: center;
+    }
+    .lunch-box{
+        transform: rotate(0deg);
+        position: static;
+    }
+}
+/* 660px tak aur uske neeche tak ke resolution k liye */
+@media (max-width: 660px) {
+    #title{
+        text-align: center;
+    }
+    .lunch-box{
+        transform: rotate(0deg);
+        position: static;
+        height: 80%;
+        width: auto;
+    }
+}
